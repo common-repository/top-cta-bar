@@ -1,0 +1,47 @@
+.popupbox{display:none;position:fixed;top:25%;height:200px;width:550px;border:7px solid rgba(141,174,89,0.4);-moz-background-clip: padding;-webkit-background-clip:padding; background-clip:padding-box;background-color:#FAFEFA;padding-left:0;z-index:999999991;text-align:center;}
+.content-area{width:100%;float:left;display:block;text-align:center;padding:2px 0;}
+.content-area .box{width:99.8%;height:100px;float:left;border:none solid #00FF00;background:none;}
+.content-area .box .header-area{width:100%;float:left;min-height:20px;margin-bottom:15px;background:#eee;display:block;text-align:center;padding:7px 0;font-size:14px;font-weight:600;}
+.content-area .box .inner{padding:40px 20px;border:none solid #00FF00;}
+
+.closelog {position:absolute;left:98.5%;top:-19px;float:right;background:url(images/x.png) no-repeat 0 0 transparent; width:25px;height:25px;cursor:pointer;}
+
+#header_fixedBar #inner .confirm-button , .ok-button{background:#FFFFFF;display:inline-block; text-align:center;line-height:28px;-moz-border-radius:0;-webkit-border-radius:0;border-radius:none !important;border:none groove #0D92AD;font-size:14px;font-weight:300;color:#990033;width:auto;white-space:normal;cursor:pointer;text-transform:capitalize;text-decoration:none !important;padding:0 6px !important;vertical-align:middle}
+#header_fixedBar #inner .confirm-button:focus, #header_fixedBar #inner .confirm-button:hover{background:#0D92AD;color:#fff;outline:0;border:none ridge #0D92AD;}
+.ok-button{background:#19acca;display:block;text-align:center;width:90px;margin:15px auto;}
+#header_fixedBar{
+	background:#990033;
+	line-height:55px;
+	font-size:14px;
+	position:fixed;
+	width:100%;
+	vertical-align:middle;
+	text-align:center;
+	z-index:99999999;
+}
+#header_fixedBar #inner{
+	color:#FFFFFF; 
+	height:55px;
+	display:inline-block;
+	text-align:center;
+}
+#header_fixedBar #inner span{
+	display:inline-block;
+	text-align:center;
+}
+#header_fixedBar #inner a{
+	display:inline-block;
+	text-align:center;
+}
+#header_fixedBar #inner input[name=cta_email]{
+    display:inline-block;
+	text-align:center;
+	background:#990033;
+	color:#fff;
+	border:thin solid #FFFFFF;
+	margin:0 5px;
+	padding:0;
+	height:28px;
+	width:120px;
+	vertical-align:middle;
+}
